@@ -5,7 +5,7 @@ from array import array
 import matplotlib.pylab as plt
 
 RADIUS = 10
-TOTAL = 15530
+TOTAL = 155300
 points_cor_x = []
 points_cor_y = []
 
@@ -13,9 +13,9 @@ outside_points_cor_x = []
 outside_points_cor_y = []
 
 
-fig, ax = plt.subplots()
-ax.add_patch(plt.Circle((0, 0), RADIUS, color='g', alpha=0.05))
-ax.plot()
+# fig, ax = plt.subplots()
+# ax.add_patch(plt.Circle((0, 0), RADIUS, color='g', alpha=0.05))
+# ax.plot()
 plt.xlim(0, RADIUS)
 plt.ylim(0, RADIUS)
 
