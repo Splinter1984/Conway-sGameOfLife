@@ -1,7 +1,4 @@
-import math
-import numpy as np
 import random as rand 
-from array import array
 import matplotlib.pylab as plt
 
 RADIUS = 10
@@ -12,10 +9,6 @@ points_cor_y = []
 outside_points_cor_x = []
 outside_points_cor_y = []
 
-
-# fig, ax = plt.subplots()
-# ax.add_patch(plt.Circle((0, 0), RADIUS, color='g', alpha=0.05))
-# ax.plot()
 plt.xlim(0, RADIUS)
 plt.ylim(0, RADIUS)
 
@@ -35,8 +28,5 @@ for _ in range(0, TOTAL):
 
 plt.scatter(points_cor_x, points_cor_y,s = 0.08, c='g')
 plt.scatter(outside_points_cor_x, outside_points_cor_y,s = 0.08, c='b')
-
-plt.title(pi_number)
-print(pi_number)    
-
+plt.title(pi_number)   
 plt.show()
