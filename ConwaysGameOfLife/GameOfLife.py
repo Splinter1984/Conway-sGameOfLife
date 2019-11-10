@@ -135,7 +135,6 @@ class GameOfLife:
         QUIT = False
         self.initial_grid()
         self.draw_grid()
-        # sleep(SPEED)
         while True:
             for event in pygame.event.get():
                 if event.type == QUIT: sys.exit()
