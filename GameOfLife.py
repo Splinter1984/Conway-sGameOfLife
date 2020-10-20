@@ -3,6 +3,7 @@ import random
 import pygame
 import sys, os
 
+
 BOARD =HEIGHT, WIDTH = 420, 420
 # BOARD =HEIGHT, WIDTH = 1280, 680
 CELL_SIZE = 5
